@@ -6,11 +6,11 @@ const nextConfig = {
     return [
       {
         source: '/route-planning',
-        destination: `${ROUTE_PLANNING_URL}/route-planning`,
+        destination: `https://nextjs-microfrontends-example-route-planning.vercel.app/route-planning`,
       },
       {
         source: '/route-planning/:path*',
-        destination: `${ROUTE_PLANNING_URL}/route-planning/:path*`,
+        destination: `https://nextjs-microfrontends-example-route-planning.vercel.app/route-planning/:path*`,
       },
     ]
   }
