@@ -1,0 +1,19 @@
+{
+  "name": "nextjs-microfrontends-example",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "start": "turbo start",
+    "start:root": "turbo start --filter=root",
+    "start:route-planning": "turbo start --filter=route-planning"
+  },
+  "devDependencies": {
+    "turbo": "2.0.7",
+    "typescript": "5.5.3"
+  },
+  "packageManager": "pnpm@8.15.6",
+  "engines": {
+    "node": ">=18"
+  }
+}
